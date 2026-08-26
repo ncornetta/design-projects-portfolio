@@ -91,7 +91,7 @@ Professors, engineers, recruiters, and other technical readers will be able to a
 
 Intentional Customization
 
-I'm going to switch the color scheme of the portfolio to a dark gray and white motif with a blue emphasis. While keeping a restrained technical design, this customization aims to enhance readability and provide a visual connection to automotive and motorsports engineering. The altered color scheme offers visual differentiation while preserving adequate contrast between the background and technical information because the default color scheme does not explicitly convey the engineering focus of the portfolio. Therefore, rather than merely altering the design out of personal taste, the modification is based on the functional requirement of assisting a reader in distinguishing navigation elements, headings, and technical information.
+I'm going to switch the color scheme of the portfolio to a dark gray and white with a blue bits. This aims to enhance readability and provide a visual connection to automotive and motorsports engineering. The altered color scheme offers visual differentiation while preserving adequate contrast between the background and technical information because the default color scheme, even though similar to school colors, does not explicitly convey the engineering focus of the portfolio. Therefore, rather than altering the design out of personal taste, the modification is based on the functional requirement of assisting a reader in distinguishing navigation elements, headings, and technical information.
 
 Documentation Standard
 
