@@ -40,4 +40,4 @@ The 7-member planar truss was modeled in CAD as a single continuous 20.0 mm thic
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
 ## Communicate
-
+This project highlighted just how essential it is to build in buffer time for unexpected technical hurdles. I tend to procrastonate and this assignment was no acception. I held off on reviewing the project requirements until late in the week, only to get stuck troubleshooting software compatibility issues that delayed my modeling work until the day before it was due. I also discovered that relying on physical notebooks isn't ideal for my workflow, as managing loose pages and manually sketching complex FBDs made tracking my step-by-step math unnecessarily tedious. For upcoming projects, I intend to transition to a digital math workspace layout to keep my documentation clean and easy to edit. Mastering a quick way to insert custom vector diagrams digitally will be key for future assignments. In total, I dedicated around 12 hours to completing this project.
