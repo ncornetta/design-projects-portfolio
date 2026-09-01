@@ -31,6 +31,12 @@ Step 3: CAD design
 <img width="2523" height="957" alt="IMG_0173" src="https://github.com/user-attachments/assets/4e6079b5-ca0e-4675-8019-85b81f7ac826" />
 
 
+<img width="668" height="398" alt="image" src="https://github.com/user-attachments/assets/a9c7354b-d570-4af9-9912-66e2ed86584d" />
+The Pin
+The connecting pins were modeled as solid cylindrical components extruded from hardened tool steel to handle the single-shear loads at Nodes A through E. Each pin features a diameter of 11.0 mm to provide the required cross-sectional area of 94.8 mm², paired with a length of 20.0 mm to match the full thickness of the truss plate. The CAD simulation calculates the weight of a single pin at approximately 0.032 lbs (0.143 N), resulting in a combined assembly weight of 0.161 lbs (0.716 N) across all five joints, which exactly matches the theoretical weight derived in the hand calculations.
+<img width="1101" height="566" alt="image" src="https://github.com/user-attachments/assets/6a1378d0-1d89-41e8-a183-896059b8e204" />
+The 7-member planar truss was modeled in CAD as a single continuous 20.0 mm thick plate with internal triangular cutouts and integrated node connection points, matching the design layout from Appendix B. Each member features a uniform cross-sectional width of 16.8 mm to satisfy the calculated minimum required area of 335.3 mm², spanning an overall base length of 1.0 m. The CAD mass properties analysis yielded a simulated weight of 18.8 lbs (83.6 N), which compares favorably against the hand-calculated theoretical weight of 20.9 lbs (92.95 N). The roughly 10% reduction in the CAD model accounts for material removed by the five 11.0 mm pin holes and the geometric overlap at the intersecting joint nodes, whereas the hand calculations assumed full center-to-center member lengths without joint deductions.
+
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
 ## Communicate
