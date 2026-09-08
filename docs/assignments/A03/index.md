@@ -10,6 +10,8 @@
 <img width="442" height="107" alt="image" src="https://github.com/user-attachments/assets/fe6a1741-2ac3-41ee-a163-f944d921c44c" />
 
 ## Analyze
+<img width="2707" height="1270" alt="IMG_0258" src="https://github.com/user-attachments/assets/c429e277-69e4-4a0b-ba28-6c64a278dd56" />
+
 To meet the design requirements for maximum stiffness under direct axial tension, a cylindrical aluminum rod was sized using analytical deflection equations. Given a tensile load of 400lbf, a target deflection limit of 0.009in, and an elastic modulus of 10x10^6 psi, a baseline diameter of 0.50 in. Using this diameter, the cross-sectional area was determined, which was then substituted into the axial elongation relation delta = FL/AE to parametrically solve for the allowable bar length of 44.18 in.
 
 For the CAD portion of the documentation, I chose Creo Parametric due to me having experience in the software. Before drawing a single sketch, I popped open the Parameters menu and entered my baseline values: applied load, target deflection, Young's modulus, and bar diameter. From there, I used the Relations tool to plug in the formulas for cross-sectional area and bar length. This essentially turned Creo into an built-in spreadsheet—it instantly calculated the required length and confirmed my hand calculations were spot on.
