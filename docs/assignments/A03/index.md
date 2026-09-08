@@ -24,7 +24,7 @@ With the parameters ready, I sketched a simple circle and tied its dimension dir
 
 Analysis: 
 To run the FEA, I switched Creo over to Simulate mode and fixed the left face of the bar while applying a pulling force to the right end. I tied this load directly to my pre-set "F" force parameter. Once the boundary conditions were set, I ran the simulation and generated both an axial deflection map and a von Mises stress map. The results are shown below, with von Mises stress on top and axial deflection  on the bottom.
-<img width="565" height="214" alt="image" src="https://github.com/user-attachments/assets/b7d82678-fc44-4d48-b612-2e6a5bede68c" />
+<img width="1082" height="404" alt="image" src="https://github.com/user-attachments/assets/b7d82678-fc44-4d48-b612-2e6a5bede68c" />
 
 <img width="1082" height="404" alt="image" src="https://github.com/user-attachments/assets/b6642602-dd7a-4640-8a92-a458be374e9f" />
 
