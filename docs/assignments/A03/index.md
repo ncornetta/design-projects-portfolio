@@ -30,7 +30,12 @@ To run the FEA, I switched Creo over to Simulate mode and fixed the left face of
 
 <img width="1082" height="404" alt="image" src="https://github.com/user-attachments/assets/b6642602-dd7a-4640-8a92-a458be374e9f" />
 
+
+<img width="2893" height="1705" alt="IMG_0259" src="https://github.com/user-attachments/assets/d89d57d3-f4c1-4658-afde-42f401a025ad" />
+
 After running the simulation and extracting the stress values, the nominal stress from my hand calculations came out to 2.037 ksi, which is well below the 40 ksi yield strength of aluminum. Creo reported a slightly higher peak stress of 2.295 ksi right near the fixed boundary condition, yielding a safety factor of 17.43. The axial deflection from the FEA matched my hand calculations almost perfectly, with only a 1.06% difference which was awesome. This minor variation makes complete sense my hand calculations assume ideal, uniform strain along the entire bar, whereas the FEA accounts for the extra local stiffness created by rigid constraints at the fixed end.
+
+
 
 ## Decide
 
