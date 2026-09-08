@@ -43,5 +43,6 @@ Using Peterson's Stress Concentration Factors, a standard transverse hole in a t
 Before this project, I had zero experience running FEA on a CAD model, so there was definitely a learning curve. The reason I chose Creo is due to me having it already installed and also past experience. I did run into a minor setup mistake in Creo when I first built the model. I forgot to include the cross-sectional area equation in the Relations box, so my length formula wasn't evaluating correctly and the geometry wouldn't update. Once I realized the missing parameter link, I went back in, added the area relation, and the model instantly scaled to the correct size. The only other point of confusion was the prompt itself: the main description called for a circular cross-section, while the rubric outline mentioned width, height, and thickness like a rectangle. I decided to stick with the circular design, and the results turned out great. Overall, the project took me about 5 hours this past weekend.
 
 ## Communicate
-Download CAD file: https://drive.google.com/file/d/1qs9wgRU30TB8TUcFKbwXSpgg7g1Vj8Rf/view?usp=sharing
+Download CAD file: 
+https://drive.google.com/file/d/1qs9wgRU30TB8TUcFKbwXSpgg7g1Vj8Rf/view?usp=sharing
 
