@@ -16,14 +16,16 @@ For the CAD portion of the documentation, I chose Creo Parametric due to me havi
 CAD Design:
 <img width="668" height="407" alt="image" src="https://github.com/user-attachments/assets/63c06e66-d4b1-4fb0-b981-411b08c82d7f" />
 
-I used these equations to set the parameters 
-
+With the parameters ready, I sketched a simple circle and tied its dimension directly to my d0 parameter. I then extruded it into a cylinder, setting the length to d1, which automatically pulled from the length formula I set up in the Relations box. Since Creo only lets you assign materials to a 3D model, I went into the Model Properties and assigned Aluminum to the part so the physical properties would update.
 <img width="399" height="190" alt="image" src="https://github.com/user-attachments/assets/b3adf904-4e05-421f-abcb-2610f8a9a6d7" />
 
 
 <img width="529" height="309" alt="image" src="https://github.com/user-attachments/assets/90645cb4-5df6-4b9c-a78f-1671539d0ce7" />
 
 Analysis: 
+To run the FEA, I switched Creo over to Simulate mode and fixed the left face of the bar while applying a pulling force to the right end. I tied this load directly to my pre-set "F" force parameter. Once the boundary conditions were set, I ran the simulation and generated both an axial deflection map and a von Mises stress map. The results are shown below, with von Mises stress on top and axial deflection  on the bottom.
+<img width="565" height="214" alt="image" src="https://github.com/user-attachments/assets/b7d82678-fc44-4d48-b612-2e6a5bede68c" />
+
 <img width="1082" height="404" alt="image" src="https://github.com/user-attachments/assets/b6642602-dd7a-4640-8a92-a458be374e9f" />
 
 After running the simulation and extracting the stress values, the nominal stress from my hand calculations came out to 2.037 ksi, which is well below the 40 ksi yield strength of aluminum. Creo reported a slightly higher peak stress of 2.295 ksi right near the fixed boundary condition, yielding a safety factor of 17.43. The axial deflection from the FEA matched my hand calculations almost perfectly, with only a 1.06% difference which was awesome. This minor variation makes complete sense my hand calculations assume ideal, uniform strain along the entire bar, whereas the FEA accounts for the extra local stiffness created by rigid constraints at the fixed end.
