@@ -20,6 +20,7 @@ I used these equations to set the parameters
 
 <img width="399" height="190" alt="image" src="https://github.com/user-attachments/assets/b3adf904-4e05-421f-abcb-2610f8a9a6d7" />
 
+
 <img width="529" height="309" alt="image" src="https://github.com/user-attachments/assets/90645cb4-5df6-4b9c-a78f-1671539d0ce7" />
 
 Analysis: 
