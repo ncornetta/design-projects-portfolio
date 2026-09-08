@@ -35,10 +35,13 @@ To run the FEA, I switched Creo over to Simulate mode and fixed the left face of
 
 After running the simulation and extracting the stress values, the nominal stress from my hand calculations came out to 2.037 ksi, which is well below the 40 ksi yield strength of aluminum. Creo reported a slightly higher peak stress of 2.295 ksi right near the fixed boundary condition, yielding a safety factor of 17.43. The axial deflection from the FEA matched my hand calculations almost perfectly, with only a 1.06% difference which was awesome. This minor variation makes complete sense my hand calculations assume ideal, uniform strain along the entire bar, whereas the FEA accounts for the extra local stiffness created by rigid constraints at the fixed end.
 
+<img width="2498" height="748" alt="IMG_0261" src="https://github.com/user-attachments/assets/859dc189-8719-45e3-be53-988d75cb5c66" />
 
+Using Peterson's Stress Concentration Factors, a standard transverse hole in a tension member gives a theoretical stress concentration factor of Kt = 2.5. Multiplying this by my nominal stress gave a peak stress of 5.10 ksi right at the edge of the hole. Since this peak stress is still way under Aluminum's 40ksi yield strength, the updated safety factor drops to 7.8. Even with the added stress concentration, the design easily clears the yield limit and remains completely safe.
 
 ## Decide
-
+Before this project, I had zero experience running FEA on a CAD model, so there was definitely a learning curve. The reason I chose Creo is due to me having it already installed and also past experience. I did run into a minor setup mistake in Creo when I first built the model. I forgot to include the cross-sectional area equation in the Relations box, so my length formula wasn't evaluating correctly and the geometry wouldn't update. Once I realized the missing parameter link, I went back in, added the area relation, and the model instantly scaled to the correct size. The only other point of confusion was the prompt itself: the main description called for a circular cross-section, while the rubric outline mentioned width, height, and thickness like a rectangle. I decided to stick with the circular design, and the results turned out great. Overall, the project took me about 5 hours this past weekend.
 
 ## Communicate
+Download CAD file: https://drive.google.com/file/d/1qs9wgRU30TB8TUcFKbwXSpgg7g1Vj8Rf/view?usp=sharing
 
