@@ -8,6 +8,9 @@ Step 1: Strength vs Stiffness
 Before beginning the modeling and drawing process, the first step was to determine which analysis-based design would be used for the final bracket. I selected the strength analysis design because it provided more substantial dimensions while still meeting the required performance criteria. Compared with the stiffness analysis design, the strength-based design resulted in a generally thicker and more robust bracket, especially in features B and D.
 
 After selecting the final design, I opened Creo and began setting up the model. Aluminum was assigned as the material, and the unit system was set to inches and pound-force (in/lbf) before beginning the solid modeling process.
+
+
+
 <img width="261" height="310" alt="image" src="https://github.com/user-attachments/assets/04a1bf1a-a132-4e88-ad7f-db6260e7dfbb" />
 
 
