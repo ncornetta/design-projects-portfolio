@@ -30,8 +30,8 @@ Once these adjustments were made, I entered the finalized dimensions into Creo P
 
 
 
+## Step 3: Tolerances and Drawing
 
-Step 3: Tolerances and Drawing
 
 To ensure that the part met the required design specifications, I reviewed the model and applied the appropriate tolerances and significant figures to each feature. After confirming that all dimensions and tolerances were correct, I created a B-size engineering drawing using the format provided by UNCC.
 
