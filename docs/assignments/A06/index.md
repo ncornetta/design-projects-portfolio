@@ -26,8 +26,19 @@ The original height of Feature B was set to 1.00 in., but it was increased to 1.
 Once these adjustments were made, I entered the finalized dimensions into Creo Parameters and created the necessary relations to control the dimensions throughout the model. This allowed the bracket to be fully parametric and made it easier to manage any future dimensional changes. Below is a series of images showing the order of operations used to create the final model.
 
 
+<img width="519" height="120" alt="image" src="https://github.com/user-attachments/assets/e95a5793-d013-416b-9078-18bcdbf9e129" />
 
 
+
+
+
+
+
+<img width="539" height="545" alt="image" src="https://github.com/user-attachments/assets/da49a98a-900a-4e79-b0d3-9eb760dd5383" />
+
+
+
+<img width="440" height="560" alt="image" src="https://github.com/user-attachments/assets/21f0e5fe-1af0-456a-8ca6-93ec9ff0b766" />
 
 
 ## Step 3: Tolerances and Drawing
@@ -38,6 +49,11 @@ To ensure that the part met the required design specifications, I reviewed the m
 While setting up the drawing in Creo, I found that the tolerance values were not displayed automatically. To correct this, I went into the configuration settings and manually enabled the proper tolerance display options. Once the settings were adjusted, I completed the engineering drawing with all necessary dimensions and tolerances.
 
 The final drawing includes a 3D orthogonal view of the bracket along with top, front, and right-side views. These views clearly display the part geometry, dimensions, tolerances, and hidden features needed to fully represent the final design.
+
+
+<img width="600" height="383" alt="image" src="https://github.com/user-attachments/assets/40edea4f-9a2e-4590-b476-34dfcc30723e" />
+
+
 
 Reflection:
 I spent approximately six hours completing this assignment, and one challenge I encountered was making sure the parameters and relations in Creo updated the model correctly without causing conflicts between dependent dimensions. The diameter of Feature A was determined using the strength analysis by combining the allowable stress and section modulus equations, and this dimension was then used to control the width of Feature B, while its thickness was calculated through the Creo relation d5 = (4*1200)/(40000*DA). Feature D was given a loose-fit tolerance of -0.001 in. to create a functional sliding interface that allows the bracket to move freely along the mating component while still maintaining a secure fit. This assignment also demonstrated the importance of selecting reasonable tolerances, since unnecessarily tight tolerances, such as 0.0001 in. instead of 0.001 in., can significantly increase manufacturing time and cost by requiring greater machining precision.
