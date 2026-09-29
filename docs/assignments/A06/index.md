@@ -9,6 +9,9 @@ Before beginning the modeling and drawing process, the first step was to determi
 
 After selecting the final design, I opened Creo and began setting up the model. Aluminum was assigned as the material, and the unit system was set to inches and pound-force (in/lbf) before beginning the solid modeling process.
 <img width="261" height="310" alt="image" src="https://github.com/user-attachments/assets/04a1bf1a-a132-4e88-ad7f-db6260e7dfbb" />
+
+
+
 Step 2: Parametric Modeling
 
 Using Creo, I created a single solid part by developing a series of continuous sketches, beginning with Feature A and working through Feature E. This approach allowed me to visualize the overall geometry of the bracket and determine how the selected dimensions would work together in the final model. During this process, I identified a few dimensions and assumptions from my original design that needed to be adjusted.
